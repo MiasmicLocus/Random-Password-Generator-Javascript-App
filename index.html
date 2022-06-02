@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head> 
+    <title> RANDOM PASSWORD GENERATOR </title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="title">
+        <h1> Generate a secure Password </h1>
+        <h1 id="white"> At the click of a button </h1>
+        </div>
+        
+        <div id="content">
+        <input id="userInput" type="text" placeholder="Select password length">
+
+        <button class="btn btn-light" onclick="generatePass()"> Generate New Password </button>
+
+        <p> ____________________________________________________________________________ </p>
+
+        <p id="first-Password"></p>
+        <p id="second-Password"></p>
+        <p id="third-Password"></p>
+        <p id="fourth-Password"></p>
+        </div>
+    </div>                                  <!-- Closing div main --> 
+    
+    <script src="script.js"></script>
+</body>
